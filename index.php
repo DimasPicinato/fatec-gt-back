@@ -1,10 +1,10 @@
 <?php
-require_once __DIR__ . '/../src/db.php';
-require_once __DIR__ . '/../src/helpers.php';
-require_once __DIR__ . '/../controllers/AuthController.php';
-require_once __DIR__ . '/../controllers/UserController.php';
-require_once __DIR__ . '/../controllers/StatusController.php';
-require_once __DIR__ . '/../controllers/TaskController.php';
+require_once __DIR__ . '/src/db.php';
+require_once __DIR__ . '/src/helpers.php';
+require_once __DIR__ . '/controllers/AuthController.php';
+require_once __DIR__ . '/controllers/UserController.php';
+require_once __DIR__ . '/controllers/StatusController.php';
+require_once __DIR__ . '/controllers/TaskController.php';
 
 $method = $_SERVER['REQUEST_METHOD'];
 $path = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
